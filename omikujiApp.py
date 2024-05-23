@@ -1,6 +1,9 @@
 import tkinter as tk
 
-root = tk.tk()
+def dispLabel():
+    lbl.configure(text="こんにちは")
+
+root = tk.Tk()
 root.geometry("200×100")
 
 lbl = tk.Label(text="LABEL")
