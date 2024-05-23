@@ -5,7 +5,7 @@ import PIL.ImageTk
 
 def dispPhoto(path):
     #画像を読み込んで、グレースケールに変換する
-    newimage = PIL.Image.open(path).convert("L").resize((300,300))
+    newImage = PIL.Image.open(path).convert("L").resize((300,300))
     #そのイメージをラベルに表示する
     imageData = PIL.ImageTk.PhotoImage(newImage)
     imageLabel.configure(image = imageData)
