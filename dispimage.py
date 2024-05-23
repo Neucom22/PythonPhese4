@@ -17,7 +17,7 @@ def openFile():
     if fpath:
         dispPhoto(fpath)
 
-root = tk,Tk()
+root = tk.Tk()
 root.geometry("400x350")
 
 btn = tk.Button(texk="ファイルを開く", command = openfile)
