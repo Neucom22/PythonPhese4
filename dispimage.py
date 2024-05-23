@@ -20,7 +20,7 @@ def openFile():
 root = tk.Tk()
 root.geometry("400x350")
 
-btn = tk.Button(texk="ファイルを開く", command = openfile)
+btn = tk.Button(text="ファイルを開く", command = openfile)
 imageLabel = tk.Label()
 btn.pack()
 imageLabel.pack()
